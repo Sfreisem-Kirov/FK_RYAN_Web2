@@ -1,0 +1,25 @@
+.column {
+    float: left;
+    width: 50%;
+    padding-left: 10%;
+    padding-right: 10%;
+    text-align:center;
+    height: auto;
+}
+.samtron{
+    text-align:center;
+}
+.foot{
+    
+    background-color:gray;
+    float: left;
+    width: 100%;
+}
+.foottext{
+    color:white;
+    text-align:center;
+    margin:10px;
+}
+h2{
+    margin:10px;
+}
