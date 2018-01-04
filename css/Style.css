@@ -6,6 +6,13 @@
     text-align:center;
     height: auto;
 }
+.column-tri {
+    float: left;
+    width: 33.33%;
+    padding: 5%;
+    text-align:center;
+    height: auto;
+}
 .samtron{
     text-align:center;
 }
@@ -22,4 +29,13 @@
 }
 h2{
     margin:10px;
+}
+.colors{
+    font:14px;
+}
+.search{
+    margin:auto;    
+}
+.imag{
+    
 }
