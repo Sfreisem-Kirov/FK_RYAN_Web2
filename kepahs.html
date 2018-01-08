@@ -22,7 +22,7 @@
 
         <div class="collapse navbar-collapse" id="navbarColor01">
             <ul class="navbar-nav mr-auto">
-                <li class="nav-item" >
+                <li class="nav-item">
                     <a class="nav-link" href="#">Home</a>
                 </li>
                 <li class="nav-item active">
@@ -30,7 +30,7 @@
                         <span class="sr-only">(current)</span>
                     </a>
                 </li>
-                <li >
+                <li>
                     <a class="nav-link" href="#">About</a>
                 </li>
             </ul>
@@ -40,96 +40,91 @@
         <form>
             <fieldset>
                 <fieldset class="form-group">
-                    <legend>Narrow Your Search</legend>
-                    <div class="form-check">
-                        <label class="form-check-label">
-                            <input class="form-check-input" type="checkbox" value="">
-                            <p style="font:20px; margin:15px;">Blue</p>
-                        </label>
-                        <label class="form-check-label">
-                            <input class="form-check-input" type="checkbox" value="">
-                            <p style="font:20px; margin:15px;">Silver</p>
-                        </label>
-                        <label class="form-check-label">
-                            <input class="form-check-input" type="checkbox" value="">
-                            <p style="font:20px; margin:15px;"> Black</p>
-                        </label>
-                    </div>
-                </fieldset>
-                <button type="submit" class="btn btn-primary btn-lg">Search</button>
-            </fieldset>
+                    <h1>Search Colors</h1>
 
+                    <input type="text" id="myInput" placeholder="Search for Colors" title="Type in a Color">
+                </fieldset>
+                <button type="submit" onclick="myFunction();" class="btn btn-primary btn-lg">Search</button>
+            </fieldset>
         </form>
     </center>
-    <div class="column-tri">
-        <div class="card mb-3">
-            <h3 class="card-header">Traditional</h3>
-            <div class="card-body">
-                <h5 class="card-title">This is a traditional black Yamakah.</h5>
-                <h6 class="card-subtitle text-muted">Black</h6>
+    <ul id="myUL">
+        <li>
+            <div class="column-tri">
+                <div class="card mb-3">
+                    <h3 class="card-header">Traditional</h3>
+                    <div class="card-body">
+                        <h5 class="card-title">This is a traditional black Yamakah.</h5>
+                        <h6 class="card-subtitle text-muted">Black</h6>
+                    </div>
+                    <img style="height: 200px; width: 100%; display: block;" src="images/kippah_1.png" alt="Traditional">
+                    <div class="card-body">
+                        <a href="#" class="card-link">Add to Cart</a>
+                    </div>
+                    <div class="card-footer text-muted">
+                        <p>
+                            <span class="glyphicon glyphicon-star"></span>
+                            <span class="glyphicon glyphicon-star-empty"></span>
+                            <span class="glyphicon glyphicon-star-empty"></span>
+                            <span class="glyphicon glyphicon-star-empty"></span>
+                            <span class="glyphicon glyphicon-star-empty"></span>
+                        </p>
+                    </div>
+                </div>
             </div>
-            <img style="height: 200px; width: 100%; display: block;" src="images/kippah_1.png" alt="Traditional">
-            <div class="card-body">
-                <a href="#" class="card-link">Add to Cart</a>
-            </div>
-            <div class="card-footer text-muted">
-                <p>
-                    <span class="glyphicon glyphicon-star"></span>
-                    <span class="glyphicon glyphicon-star-empty"></span>
-                    <span class="glyphicon glyphicon-star-empty"></span>
-                    <span class="glyphicon glyphicon-star-empty"></span>
-                    <span class="glyphicon glyphicon-star-empty"></span>
-                </p>
-            </div>
-        </div>
-    </div>
-    <div class="column-tri">
-        <div class="card mb-3">
-            <h3 class="card-header">The Original</h3>
-            <div class="card-body">
-                <h5 class="card-title">This is our first Kippah</h5>
-                <h6 class="card-subtitle text-muted">Blue</h6>
-            </div>
-            <img style="height: 200px; width: 100%; display: block;" src="images/kippah_2.jpg" alt="Bernie">
-            <div class="card-body">
-                <a href="#" class="card-link">Add to Cart</a>
-            </div>
-            <div class="card-footer text-muted">
-                <p>
-                    <span class="glyphicon glyphicon-star"></span>
-                    <span class="glyphicon glyphicon-star-empty"></span>
-                    <span class="glyphicon glyphicon-star-empty"></span>
-                    <span class="glyphicon glyphicon-star-empty"></span>
-                    <span class="glyphicon glyphicon-star-empty"></span>
-                </p>
-            </div>
-        </div>
+        </li>
+        <li>
+            <div class="column-tri">
+                <div class="card mb-3">
+                    <h3 class="card-header">The Original</h3>
+                    <div class="card-body">
+                        <h5 class="card-title">This is our first Kippah</h5>
+                        <h6 class="card-subtitle text-muted">Blue</h6>
+                    </div>
+                    <img style="height: 200px; width: 100%; display: block;" src="images/kippah_2.jpg" alt="Bernie">
+                    <div class="card-body">
+                        <a href="#" class="card-link">Add to Cart</a>
+                    </div>
+                    <div class="card-footer text-muted">
+                        <p>
+                            <span class="glyphicon glyphicon-star"></span>
+                            <span class="glyphicon glyphicon-star-empty"></span>
+                            <span class="glyphicon glyphicon-star-empty"></span>
+                            <span class="glyphicon glyphicon-star-empty"></span>
+                            <span class="glyphicon glyphicon-star-empty"></span>
+                        </p>
+                    </div>
+                </div>
 
-    </div>
-    <div class="column-tri">
-            <div class="card mb-3">
-                <h3 class="card-header">The Rose</h3>
-                <div class="card-body">
-                    <h5 class="card-title">Made my Sarah Rose </h5>
-                    <h6 class="card-subtitle text-muted">Red</h6>
-                </div>
-                <img style="height: 200px; width: 100%; display: block;" src="images/kippah_3.jpg" alt="silver">
-                <div class="card-body">
-                    <a href="#" class="card-link">Add to Cart</a>
-                </div>
-                <div class="card-footer text-muted">
-                    <p>
-                        <span class="glyphicon glyphicon-star"></span>
-                        <span class="glyphicon glyphicon-star-empty"></span>
-                        <span class="glyphicon glyphicon-star-empty"></span>
-                        <span class="glyphicon glyphicon-star-empty"></span>
-                        <span class="glyphicon glyphicon-star-empty"></span>
-                    </p>
-                </div>
             </div>
-    
-        </div>
+        </li>
+        <li>
+            <div class="column-tri">
+                <div class="card mb-3">
+                    <h3 class="card-header">The Rose</h3>
+                    <div class="card-body">
+                        <h5 class="card-title">Made my Sarah Rose </h5>
+                        <h6 class="card-subtitle text-muted">Red</h6>
+                    </div>
+                    <img style="height: 200px; width: 100%; display: block;" src="images/kippah_3.jpg" alt="silver">
+                    <div class="card-body">
+                        <a href="#" class="card-link">Add to Cart</a>
+                    </div>
+                    <div class="card-footer text-muted">
+                        <p>
+                            <span class="glyphicon glyphicon-star"></span>
+                            <span class="glyphicon glyphicon-star-empty"></span>
+                            <span class="glyphicon glyphicon-star-empty"></span>
+                            <span class="glyphicon glyphicon-star-empty"></span>
+                            <span class="glyphicon glyphicon-star-empty"></span>
+                        </p>
+                    </div>
+                </div>
 
+            </div>
+        </li>
+    </ul>
+        <script src="js/script.js"></script>
 </body>
 
 </html>

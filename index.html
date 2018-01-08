@@ -30,7 +30,7 @@
                 <li class="nav-item">
                     <a class="nav-link" href="#">Kepahs</a>
                 </li>
-                <li >
+                <li>
                     <a class="nav-link" href="#">About</a>
                 </li>
             </ul>
@@ -40,96 +40,94 @@
         <form>
             <fieldset>
                 <fieldset class="form-group">
-                    <legend>Narrow Your Search</legend>
-                    <div class="form-check">
-                        <label class="form-check-label">
-                            <input class="form-check-input" type="checkbox" value="">
-                            <p style="font:20px; margin:15px;">Blue</p>
-                        </label>
-                        <label class="form-check-label">
-                            <input class="form-check-input" type="checkbox" value="">
-                            <p style="font:20px; margin:15px;">Silver</p>
-                        </label>
-                        <label class="form-check-label">
-                            <input class="form-check-input" type="checkbox" value="">
-                            <p style="font:20px; margin:15px;"> Black</p>
-                        </label>
-                    </div>
+                    <h1>Search Colors</h1>
+
+                    <input type="text" id="myInput"  placeholder="Search for Colors" title="Type in a Color">
                 </fieldset>
-                <button type="submit" class="btn btn-primary btn-lg">Search</button>
+                <button type="submit" onclick="myFunction();" class="btn btn-primary btn-lg">Search</button>
             </fieldset>
 
         </form>
     </center>
-    <div class="column-tri">
-        <div class="card mb-3">
-            <h3 class="card-header">Traditional</h3>
-            <div class="card-body">
-                <h5 class="card-title">This is a traditional black Yamakah.</h5>
-                <h6 class="card-subtitle text-muted">Black</h6>
+    <ul id="myUL">
+        <li>
+            <div class="column-tri">
+                <div class="card mb-3">
+                    <h3 class="card-header">Traditional</h3>
+                    <div class="card-body">
+                        <h5 class="card-title">This is a traditional black Yamakah.</h5>
+                        <h6 class="card-subtitle text-muted">Black</h6>
+                    </div>
+                    <img style="height: 200px; width: 100%; display: block;" src="images/traditionalYamaka.jpg" alt="Traditional">
+                    <div class="card-body">
+                        <a href="#" class="card-link">Add to Cart</a>
+                    </div>
+                    <div class="card-footer text-muted">
+                        <p>
+                            <span class="glyphicon glyphicon-star"></span>
+                            <span class="glyphicon glyphicon-star-empty"></span>
+                            <span class="glyphicon glyphicon-star-empty"></span>
+                            <span class="glyphicon glyphicon-star-empty"></span>
+                            <span class="glyphicon glyphicon-star-empty"></span>
+                        </p>
+                    </div>
+                </div>
             </div>
-            <img style="height: 200px; width: 100%; display: block;" src="images/traditionalYamaka.jpg" alt="Traditional">
-            <div class="card-body">
-                <a href="#" class="card-link">>Add to Cart</a>
-            </div>
-            <div class="card-footer text-muted">
-                <p>
-                    <span class="glyphicon glyphicon-star"></span>
-                    <span class="glyphicon glyphicon-star-empty"></span>
-                    <span class="glyphicon glyphicon-star-empty"></span>
-                    <span class="glyphicon glyphicon-star-empty"></span>
-                    <span class="glyphicon glyphicon-star-empty"></span>
-                </p>
-            </div>
-        </div>
-    </div>
-    <div class="column-tri">
-        <div class="card mb-3">
-            <h3 class="card-header">The Bernie</h3>
-            <div class="card-body">
-                <h5 class="card-title">This is a traditional blue Yamakah.</h5>
-                <h6 class="card-subtitle text-muted">Blue</h6>
-            </div>
-            <img style="height: 200px; width: 100%; display: block;" src="images/Bernie.png" alt="Bernie">
-            <div class="card-body">
-                <a href="#" class="card-link">>Add to Cart</a>
-            </div>
-            <div class="card-footer text-muted">
-                <p>
-                    <span class="glyphicon glyphicon-star"></span>
-                    <span class="glyphicon glyphicon-star-empty"></span>
-                    <span class="glyphicon glyphicon-star-empty"></span>
-                    <span class="glyphicon glyphicon-star-empty"></span>
-                    <span class="glyphicon glyphicon-star-empty"></span>
-                </p>
-            </div>
-        </div>
+        </li>
+        <li>
+            <div class="column-tri">
+                <div class="card mb-3">
+                    <h3 class="card-header">The Bernie</h3>
+                    <div class="card-body">
+                        <h5 class="card-title">This is a traditional blue Yamakah.</h5>
+                        <h6 class="card-subtitle text-muted">Blue</h6>
+                    </div>
+                    <img style="height: 200px; width: 100%; display: block;" src="images/Bernie.png" alt="Bernie">
+                    <div class="card-body">
+                        <a href="#" class="card-link">>Add to Cart</a>
+                    </div>
+                    <div class="card-footer text-muted">
+                        <p>
+                            <span class="glyphicon glyphicon-star"></span>
+                            <span class="glyphicon glyphicon-star-empty"></span>
+                            <span class="glyphicon glyphicon-star-empty"></span>
+                            <span class="glyphicon glyphicon-star-empty"></span>
+                            <span class="glyphicon glyphicon-star-empty"></span>
+                        </p>
+                    </div>
+                </div>
 
-    </div>
-    <div class="column-tri">
-            <div class="card mb-3">
-                <h3 class="card-header">The Silver</h3>
-                <div class="card-body">
-                    <h5 class="card-title">This is a fancy silver Yamakah.</h5>
-                    <h6 class="card-subtitle text-muted">Silver</h6>
-                </div>
-                <img style="height: 200px; width: 100%; display: block;" src="images/silver.jpg" alt="silver">
-                <div class="card-body">
-                    <a href="#" class="card-link">Add to Cart</a>
-                </div>
-                <div class="card-footer text-muted">
-                    <p>
-                        <span class="glyphicon glyphicon-star"></span>
-                        <span class="glyphicon glyphicon-star-empty"></span>
-                        <span class="glyphicon glyphicon-star-empty"></span>
-                        <span class="glyphicon glyphicon-star-empty"></span>
-                        <span class="glyphicon glyphicon-star-empty"></span>
-                    </p>
-                </div>
             </div>
-    
-        </div>
+        </li>
+        <li>
+            <div class="column-tri">
+                <div class="card mb-3">
+                    <h3 class="card-header">The Silver</h3>
+                    <div class="card-body">
+                        <h5 class="card-title">This is a fancy silver Yamakah.</h5>
+                        <h6 class="card-subtitle text-muted">Silver</h6>
+                    </div>
+                    <img style="height: 200px; width: 100%; display: block;" src="images/silver.jpg" alt="silver">
+                    <div class="card-body">
+                        <a href="#" class="card-link">Add to Cart</a>
+                    </div>
+                    <div class="card-footer text-muted">
+                        <p>
+                            <span class="glyphicon glyphicon-star"></span>
+                            <span class="glyphicon glyphicon-star-empty"></span>
+                            <span class="glyphicon glyphicon-star-empty"></span>
+                            <span class="glyphicon glyphicon-star-empty"></span>
+                            <span class="glyphicon glyphicon-star-empty"></span>
+                        </p>
+                    </div>
+                </div>
 
+            </div>
+        </li>
+
+    </ul>
+
+    <script src="js/script.js"></script>
 </body>
 
 </html>
